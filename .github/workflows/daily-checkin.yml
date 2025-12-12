@@ -14,8 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout code
+    - name: Checkout code from main branch
       uses: actions/checkout@v4
+      with:
+        # ref: main  # 指定分支名
+        # 或者使用其他分支
+        ref: llllistenlll-patch-1
+        # ref: develop
     
     - name: Set up Python
       uses: actions/setup-python@v4
