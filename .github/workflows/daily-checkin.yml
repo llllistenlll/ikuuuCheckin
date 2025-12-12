@@ -1,9 +1,9 @@
-name: Daily Check-in
+name: Daily Check-in—last
 
 on:
   # 定时触发
   schedule:
-    - cron: '10 06 * * *'
+    - cron: '16 06 * * *'
     - cron: '30 16 * * *'
 
   
